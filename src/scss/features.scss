@@ -1,0 +1,49 @@
+.section {
+  border: 1px solid black;
+}
+.section_features {
+  border: 1px solid black;
+}
+.container {
+  border: 1px solid black;
+}
+.features_cards {
+  border: 1px solid black;
+}
+.features_cards_up {
+  margin-bottom: 90px;
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  /*  flex-wrap: wrap;
+  gap: 10px; */
+  gap: 30px;
+}
+.features_card {
+  text-align: center;
+  max-width: 370px;
+  border: 1px solid black;
+}
+.features-card_icon {
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
+.features_card_info {
+  border: 1px solid black;
+}
+.features_card_title {
+  margin-bottom: 40px;
+  border: 1px solid black;
+}
+.features_card_text {
+  border: 1px solid black;
+}
+.features_cards_down {
+  display: flex;
+  justify-content: space-between;
+  /*  flex-wrap: wrap;
+  gap: 10px; */
+  gap: 30px;
+
+  border: 1px solid black;
+}

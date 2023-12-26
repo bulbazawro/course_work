@@ -3,10 +3,28 @@
 @import "./mixins";
 @import "./variables";
 @import "./download.scss";
-@import "./feautures.scss";
+@import "./features.scss";
 @import "./footer.scss";
 @import "./header.scss";
 @import "./main.scss";
 @import "./ourTeam.scss";
 @import "./testimonials.scss";
 @import "./works.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+.section {
+  padding: 114px 0;
+}
