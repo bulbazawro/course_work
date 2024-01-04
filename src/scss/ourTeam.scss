@@ -1,0 +1,129 @@
+.team_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+}
+.team_card {
+}
+.team_card_img {
+  margin-bottom: 30px;
+}
+.team_card_img img {
+  max-width: 270px;
+  max-height: 270px;
+}
+.team_card_name {
+  color: #2d3033;
+  font-family: "Raleway";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+.team_card_speciality {
+  color: #ff4343;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.team_card_text {
+  width: 270px;
+  color: #6c7279;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.team_card_icons {
+  display: flex;
+  gap: 5px;
+}
+
+.team_icon {
+  font-size: 40px;
+  transition: all 0.6s ease;
+}
+.team_icon:hover {
+  transform: translateY(-5px);
+}
+
+.fa-square-facebook {
+  transition: 0.6s;
+}
+.fa-square-facebook:hover {
+  color: #3b5998 !important;
+}
+
+.fa-square-twitter {
+  transition: 0.6s;
+}
+.fa-square-twitter:hover {
+  color: #00acee !important;
+}
+.fa-linkedin {
+  transition: 0.6s;
+}
+
+.fa-linkedin:hover {
+  color: #0e76a8 !important;
+}
+
+@media (max-width: 1024px) {
+  .section_team {
+    padding: 80px 0;
+  }
+  .team_wrap {
+    justify-content: center;
+    gap: 10px;
+  }
+  .team_card_img {
+    margin-bottom: 25px;
+  }
+  .team_card_img img {
+    width: 230px;
+    height: 230px;
+  }
+  .team_card_name {
+    font-size: 18px;
+  }
+  .team_card_speciality {
+    font-size: 14px;
+  }
+  .team_card_text {
+    width: 230px;
+    font-size: 14px;
+  }
+  .team_icon {
+    font-size: 30px;
+  }
+}
+@media (max-width: 320px) {
+  .section_team {
+    padding: 40px 0;
+  }
+  .team_wrap {
+    gap: 50px;
+  }
+  .team_card_img img {
+    width: 280px;
+    height: 230px;
+  }
+  .team_card_speciality {
+    margin-bottom: 40px;
+  }
+  .team_card_text {
+    width: 280px;
+  }
+  .team_icon {
+    font-size: 40px;
+  }
+}
