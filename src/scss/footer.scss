@@ -1,0 +1,42 @@
+.footer {
+  padding: 25px 0;
+  background-color: #2c3154;
+}
+.container_footer {
+  display: flex;
+  justify-content: center;
+}
+.footer_text {
+  max-width: 370px;
+  text-align: center;
+  color: #808080;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.footer_text_color {
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 15px 0;
+  }
+  .footer_text {
+    width: 310px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 30px 0;
+  }
+  .footer_text {
+    width: 280px;
+  }
+}
