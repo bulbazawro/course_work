@@ -26,7 +26,6 @@
 }
 
 .logo {
-  border: 1px solid black;
   font-size: 25px;
   font-weight: 700;
   font-family: "Raleway";
@@ -34,7 +33,6 @@
   color: #656980;
 }
 .header_color {
-  border: 1px solid black;
   font-weight: 100;
   color: #ffffff;
 }
@@ -67,11 +65,9 @@
 .main_contant {
 }
 .main_info {
-  border: 1px solid black;
   margin-bottom: 80px;
 }
 .main_title {
-  border: 1px solid black;
   color: #fff;
   text-align: center;
   font-family: "Raleway";
@@ -81,7 +77,6 @@
   margin-bottom: 30px;
 }
 .main_info_text p {
-  border: 1px solid black;
   color: #fff;
   text-align: center;
   font-family: "Raleway";
@@ -89,7 +84,6 @@
   font-weight: 400;
 }
 .main_button {
-  border: 1px solid black;
   display: flex;
   justify-content: center;
 }
@@ -112,4 +106,28 @@
 .main_button a:active {
   background: #ff4343;
   box-shadow: 4px 4px 30px 0px #ff4343;
+}
+
+@media (max-width: 1024px) {
+  .header_wrap {
+    margin-bottom: 160px;
+  }
+  .header_navigation_list_item a {
+    width: 110px;
+  }
+  .main_info {
+    margin-bottom: 90px;
+  }
+  .main_title {
+    font-size: 48px;
+  }
+  .main_info_text p {
+    font-size: 18px;
+  }
+  .main_button a {
+    width: 314px;
+  }
+}
+
+@media (max-width: 320px) {
 }
