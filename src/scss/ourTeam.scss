@@ -1,19 +1,19 @@
-.team_wrap {
+.team-wrap {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   justify-content: space-between;
 }
-.team_card {
+.team-card {
 }
-.team_card_img {
+.team-card__img {
   margin-bottom: 30px;
 }
-.team_card_img img {
+.team-card__img img {
   max-width: 270px;
   max-height: 270px;
 }
-.team_card_name {
+.team-card__name {
   color: #2d3033;
   font-family: "Raleway";
   font-size: 24px;
@@ -23,7 +23,7 @@
   text-transform: capitalize;
   margin-bottom: 5px;
 }
-.team_card_speciality {
+.team-card__speciality {
   color: #ff4343;
   font-family: "Raleway";
   font-size: 18px;
@@ -33,7 +33,7 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.team_card_text {
+.team-card__text {
   width: 270px;
   color: #6c7279;
   font-family: "Raleway";
@@ -43,16 +43,16 @@
   line-height: normal;
   margin-bottom: 40px;
 }
-.team_card_icons {
+.team-card__icons {
   display: flex;
   gap: 5px;
 }
 
-.team_icon {
+.team-icon {
   font-size: 40px;
   transition: all 0.6s ease;
 }
-.team_icon:hover {
+.team-icon:hover {
   transform: translateY(-5px);
 }
 
@@ -78,52 +78,52 @@
 }
 
 @media (max-width: 1024px) {
-  .section_team {
+  .section-team {
     padding: 80px 0;
   }
-  .team_wrap {
+  .team-wrap {
     justify-content: center;
     gap: 10px;
   }
-  .team_card_img {
+  .team-card__img {
     margin-bottom: 25px;
   }
-  .team_card_img img {
+  .team-card__img img {
     width: 230px;
     height: 230px;
   }
-  .team_card_name {
+  .team-card__name {
     font-size: 18px;
   }
-  .team_card_speciality {
+  .team-card__speciality {
     font-size: 14px;
   }
-  .team_card_text {
+  .team-card__text {
     width: 230px;
     font-size: 14px;
   }
-  .team_icon {
+  .team-icon {
     font-size: 30px;
   }
 }
 @media (max-width: 320px) {
-  .section_team {
+  .section-team {
     padding: 40px 0;
   }
-  .team_wrap {
+  .team-wrap {
     gap: 50px;
   }
-  .team_card_img img {
+  .team-card__img img {
     width: 280px;
     height: 230px;
   }
-  .team_card_speciality {
+  .team-card__speciality {
     margin-bottom: 40px;
   }
-  .team_card_text {
+  .team-card__text {
     width: 280px;
   }
-  .team_icon {
+  .team-icon {
     font-size: 40px;
   }
 }

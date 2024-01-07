@@ -10,7 +10,11 @@ const swiper = new Swiper(".swiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
-
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  speed: 2000,
   // Navigation arrows
   navigation: {
     nextEl: ".swiper-button-next",
@@ -33,23 +37,24 @@ right.forEach((elem, idx) => {
   }
 });
 
-const burgerMenuOpen = document.querySelector(".burger-menu__open");
+/* const burgerMenuOpen = document.querySelector(".burger-menu__open");
 const burgerMenuClose = document.querySelector(".burger-menu__close");
-const headerWrap = document.querySelector(".header_wrap");
-const headerNavigation = document.querySelector(".header_navigation");
-const mainSection = document.querySelector(".main_section");
-const headerNavigationList = document.querySelector(".header_navigation_list");
+const headerWrap = document.querySelector(".nav-wrap");
+const headerNavigation = document.querySelector(".nav-navigation");
+const hederSection = document.querySelector(".header-section");
+const headerNavigationList = document.querySelector(".nav-navigation_list");
 
 burgerMenuOpen.addEventListener("click", function () {
   if (headerWrap.classList.contains("active")) {
     headerNavigationList.classList.remove("active");
-    mainSection.classList.remove("active");
+    hederSection.classList.remove("active");
     headerWrap.classList.remove("active");
     headerNavigation.classList.remove("active");
   } else {
     headerWrap.classList.add("active");
     headerNavigation.classList.add("active");
-    mainSection.classList.add("active");
+    hederSection.classList.add("active");
     headerNavigationList.classList.add("active");
   }
 });
+ */

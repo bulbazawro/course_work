@@ -1,7 +1,7 @@
-.download_wrap {
+.download-wrap {
   text-align: center;
 }
-.download_title {
+.download-title {
   margin-bottom: 25px;
   color: #000;
   font-family: "Raleway";
@@ -10,7 +10,7 @@
   font-weight: 500;
   line-height: normal;
 }
-.download_text {
+.download-text {
   margin-bottom: 50px;
   text-transform: uppercase;
   color: #000;
@@ -20,11 +20,11 @@
   font-weight: 700;
   line-height: normal;
 }
-.download_button {
+.download-button {
   display: flex;
   justify-content: center;
 }
-.download_button a {
+.download-button a {
   cursor: pointer;
   padding: 25px 0px;
   background-color: #ff4343;
@@ -37,45 +37,45 @@
   line-height: normal;
   text-transform: uppercase;
 }
-.download_button a:hover {
+.download-button a:hover {
   background: #e71414;
 }
-.download_button a:active {
+.download-button a:active {
   background: #ff4343;
   box-shadow: 4px 4px 30px 0px #ff4343;
 }
 
 @media (max-width: 1024px) {
-  .section_download {
+  .section-download {
     padding: 78px 0px;
   }
-  .download_title {
+  .download-title {
     font-size: 24px;
     margin-bottom: 22px;
   }
-  .download_text {
+  .download-text {
     font-size: 14px;
     margin-bottom: 44px;
   }
-  .download_button a {
+  .download-button a {
     font-size: 18px;
     width: 314px;
   }
 }
 
 @media (max-width: 320px) {
-  .section_download {
+  .section-download {
     padding: 65px 0px 45px;
   }
-  .download_title {
+  .download-title {
     font-size: 18px;
     margin-bottom: 34px;
   }
-  .download_text {
+  .download-text {
     font-size: 13px;
     margin-bottom: 15px;
   }
-  .download_button a {
+  .download-button a {
     padding: 25px 0px;
     font-size: 18px;
     width: 270px;

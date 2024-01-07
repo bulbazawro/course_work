@@ -2,11 +2,11 @@
   padding: 25px 0;
   background-color: #2c3154;
 }
-.container_footer {
+.container-footer {
   display: flex;
   justify-content: center;
 }
-.footer_text {
+.footer-text {
   max-width: 370px;
   text-align: center;
   color: #808080;
@@ -18,7 +18,7 @@
   text-transform: capitalize;
 }
 
-.footer_text_color {
+.footer-text__color {
   color: #fff;
 }
 
@@ -26,7 +26,7 @@
   .footer {
     padding: 15px 0;
   }
-  .footer_text {
+  .footer-text {
     width: 310px;
     font-size: 14px;
   }
@@ -36,7 +36,7 @@
   .footer {
     padding: 30px 0;
   }
-  .footer_text {
+  .footer-text {
     width: 280px;
   }
 }
