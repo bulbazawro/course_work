@@ -2,12 +2,14 @@
   background-color: #353c65;
   padding: 70px 0;
 }
+
 .contact-wrap {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
   gap: 30px;
 }
+
 .contact-title {
   text-align: center;
   color: whitesmoke;
@@ -39,10 +41,12 @@
   justify-content: center;
   gap: 20px;
 }
+
 .contact-icon {
   transition: all 0.6s ease;
   font-size: 40px;
 }
+
 .contact-icon:hover {
   transform: translateY(-5px);
 }
@@ -50,9 +54,11 @@
 .facebook_contact:hover {
   color: #c6cbcd !important;
 }
+
 .twitter_contact:hover {
   color: #c6cbcd !important;
 }
+
 .linkedin_contact:hover {
   color: #c6cbcd !important;
 }
@@ -72,12 +78,15 @@
   .contact-section {
     padding: 45px 0;
   }
+
   .contact-wrap {
     gap: 20px;
   }
+
   .contact-title {
     font-size: 14px;
   }
+
   .contact-navigation__text {
     font-size: 14px;
   }
@@ -95,28 +104,35 @@
   .contact-section {
     padding: 35px 0;
   }
+
   .contact-wrap {
     grid-template-columns: 1fr;
     gap: 0px;
   }
+
   .contact-item__icons {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 5;
   }
+
   .contact-navigation__title {
     margin-bottom: 35px;
   }
+
   .contact-navigation__text {
     margin-bottom: 70px;
   }
+
   .contact-icon__title {
     margin-bottom: 40px;
   }
+
   .contact-icon {
     margin-bottom: 60px;
   }
+
   .contact-about__title {
     margin-bottom: 40px;
   }

@@ -6,6 +6,7 @@
   background-size: cover;
   position: relative;
 }
+
 .heder::before {
   content: "";
   background: rgba(37, 43, 73, 0.8);
@@ -16,6 +17,7 @@
   left: 0;
   z-index: 1;
 }
+
 .header-section {
   z-index: 5;
 }
@@ -23,6 +25,7 @@
 .header-contant {
   margin-top: 130px;
 }
+
 .header-info {
   margin-bottom: 80px;
 }
@@ -44,6 +47,7 @@
   font-size: 24px;
   font-weight: 400;
 }
+
 .header-button {
   display: flex;
   justify-content: center;
@@ -74,12 +78,15 @@
   .header-info {
     margin-bottom: 90px;
   }
+
   .header-title {
     font-size: 48px;
   }
+
   .header-info__text p {
     font-size: 18px;
   }
+
   .header-button a {
     width: 314px;
   }
@@ -89,19 +96,24 @@
   .heder {
     padding-bottom: 50px;
   }
+
   .header-title {
     font-size: 36px;
   }
+
   .header-info__text p {
     font-size: 14px;
   }
+
   .header-info {
     margin-bottom: 50px;
   }
+
   .header-button a {
     padding: 18px 0;
     width: 280px;
   }
+
   .header-section.active {
     display: none;
   }
