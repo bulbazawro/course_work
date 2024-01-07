@@ -84,6 +84,11 @@
 .fa-linkedin:hover {
   color: #0e76a8 !important;
 }
+@media (max-width: 1154px) {
+  .team-wrap {
+    justify-content: center;
+  }
+}
 
 @media (max-width: 1024px) {
   .section-team {
