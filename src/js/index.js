@@ -14,7 +14,7 @@ const swiper = new Swiper(".swiper", {
     delay: 3000,
     disableOnInteraction: false,
   },
-  speed: 2000,
+  speed: 2500,
   // Navigation arrows
   navigation: {
     nextEl: ".swiper-button-next",
@@ -37,7 +37,7 @@ right.forEach((elem, idx) => {
   }
 });
 
-/* const burgerMenuOpen = document.querySelector(".burger-menu__open");
+const burgerMenuOpen = document.querySelector(".burger-menu__open");
 const burgerMenuClose = document.querySelector(".burger-menu__close");
 const headerWrap = document.querySelector(".nav-wrap");
 const headerNavigation = document.querySelector(".nav-navigation");
@@ -57,4 +57,3 @@ burgerMenuOpen.addEventListener("click", function () {
     headerNavigationList.classList.add("active");
   }
 });
- */
