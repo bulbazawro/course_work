@@ -32,3 +32,24 @@ right.forEach((elem, idx) => {
     elem.classList.add("bg_2");
   }
 });
+
+const burgerMenuOpen = document.querySelector(".burger-menu__open");
+const burgerMenuClose = document.querySelector(".burger-menu__close");
+const headerWrap = document.querySelector(".header_wrap");
+const headerNavigation = document.querySelector(".header_navigation");
+const mainSection = document.querySelector(".main_section");
+const headerNavigationList = document.querySelector(".header_navigation_list");
+
+burgerMenuOpen.addEventListener("click", function () {
+  if (headerWrap.classList.contains("active")) {
+    headerNavigationList.classList.remove("active");
+    mainSection.classList.remove("active");
+    headerWrap.classList.remove("active");
+    headerNavigation.classList.remove("active");
+  } else {
+    headerWrap.classList.add("active");
+    headerNavigation.classList.add("active");
+    mainSection.classList.add("active");
+    headerNavigationList.classList.add("active");
+  }
+});
