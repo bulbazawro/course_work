@@ -39,19 +39,19 @@ const burgerMenuOpen = document.querySelector(".burger-menu__open");
 const burgerMenuClose = document.querySelector(".burger-menu__close");
 const headerWrap = document.querySelector(".nav-wrap");
 const headerNavigation = document.querySelector(".nav-navigation");
-const hederSection = document.querySelector(".header-section");
+const headerSection = document.querySelector(".header-section");
 const headerNavigationList = document.querySelector(".nav-navigation_list");
 
 burgerMenuOpen.addEventListener("click", function () {
   if (headerWrap.classList.contains("active")) {
     headerNavigationList.classList.remove("active");
-    hederSection.classList.remove("active");
+    headerSection.classList.remove("active");
     headerWrap.classList.remove("active");
     headerNavigation.classList.remove("active");
   } else {
     headerWrap.classList.add("active");
     headerNavigation.classList.add("active");
-    hederSection.classList.add("active");
+    headerSection.classList.add("active");
     headerNavigationList.classList.add("active");
   }
 });

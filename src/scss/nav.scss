@@ -5,14 +5,6 @@
   padding-top: 36px;
 }
 
-.nav-navigation_list__item:active {
-  border-bottom: 3px solid #e71414;
-}
-
-.nav-navigation_list__item a:active {
-  color: #e71414;
-}
-
 .logo {
   font-size: 25px;
   font-weight: 700;
@@ -30,12 +22,19 @@
   display: flex;
 }
 
+.nav-navigation_list__item a:active {
+  color: #e71414;
+}
+
 .nav-navigation_list__item {
   border-bottom: 3px solid transparent;
 }
 
 .nav-navigation_list__item:hover {
   border-bottom: 3px solid #babbc5;
+}
+.nav-navigation_list__item:active {
+  border-bottom: 3px solid #e71414;
 }
 
 .nav-navigation_list__item a {
